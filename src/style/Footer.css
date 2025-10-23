@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    background-color:#323a46;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+.footer-logo{
+    width: 168.9px;
+    display: flex;
+    justify-content: flex-start;
+    background-color:#323a46;
+    gap: 11px;
+}
+.container122{
+    display: flex;
+    justify-content:start;
+    align-items: flex-start;
+}
+
+.surguuli-header{
+    align-content: flex-start;
+}

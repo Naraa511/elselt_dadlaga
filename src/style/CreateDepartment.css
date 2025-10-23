@@ -1,0 +1,88 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: 1px solid black;
+    width: 600px;
+    background-color: #f9fafb;
+    margin: 50px auto;
+    padding: 30px;
+
+} */
+
+/* CreateProgramm.css */
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family:'Times New Roman', Times, serif;
+}
+
+.header {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.select,
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.select:focus,
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+label {
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Align buttons side by side with spacing */
+button + button {
+  margin-left: 10px;
+}
+
+form button:first-of-type {
+  background-color: #6c757d;
+}
+
+form button:first-of-type:hover {
+  background-color: #5a6268;
+}
